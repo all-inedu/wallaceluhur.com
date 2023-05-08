@@ -1,0 +1,427 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+
+    <!-- script  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        span {
+            font-family: 'Asap', sans-serif !important;
+        }
+
+        p {
+            padding: 15px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar  -->
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 drop-shadow-md sticky top-0 left-0">
+        <div class="flex justify-between items-center max-w-screen-xl mx-auto p-4">
+            <a href="#" target="_blank" class="font-bold text-lg text-gray-700 dark:text-white">
+                Wallaceluhur.com
+            </a>
+            <button id="theme-toggle" type="button"
+                class="text-gray-500 bg-gray-200 focus:outline-none rounded-full text-sm p-2.5">
+                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                </svg>
+                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                        fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- content  -->
+    <section class="min-h-screen dark:bg-gray-900">
+        <div class="max-w-screen-xl mx-auto p-4">
+            <div class="flex flex-col md:flex-row gap-2 justify-between items-center mt-10 mb-5 md:mb-0">
+                <h2 class="font-bold text-gray-500 dark:text-gray-400 text-xl md:text-3xl text-center">
+                    Should blockchain technology be more widely used in society?
+                </h2>
+                <a href="#references"
+                    class="text-gray-600 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100  font-medium rounded-full text-sm px-5 py-1 md:py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 cursor-pointer">References
+                </a>
+            </div>
+            <div class="max-w-screen-lg mx-auto grid grid-cols-2 gap-4 p-0 md:p-10">
+
+                <img class="h-auto max-w-full rounded-lg" src="asset/img/bc-1.jpg" alt="">
+
+                <img class="h-full max-w-full rounded-lg" src="asset/img/bc-2.webp" alt="">
+            </div>
+            <div class="font-semibold text-gray-500 dark:text-gray-400 text-sm md:text-[16px] text-justify leading-6 md:leading-8">
+                <p>
+                    "Blockchain technology has the potential to boost global gross domestic product (GDP) by US$1.76
+                    trillion over the next decade." (PWC, 2020). Nevertheless, what is blockchain technology? Blockchain
+                    is
+                    a decentralized, unchangeable database that makes tracking assets and recording transactions in a
+                    corporate network easier. Within a blockchain network, recording and trading nearly any valuable
+                    item
+                    becomes possible, which enhances efficiency and reduces risks for all involved parties (IBM, n.d.).
+                    Blockchain technology includes many features. One of its key features is decentralization. In the
+                    blockchain, decentralization refers to transferring control and decision-making from a centralized
+                    entity (individual, organization, or group thereof) to a distributed network (AWS, n.d.). Applying
+                    blockchain technology in any industry could improve traceability. When a transaction involving the
+                    swapping of goods is documented on a blockchain ledger, a traceable record is accessible to reveal
+                    the
+                    origins of the items involved. This can not only assist exchange-related organizations in increasing
+                    security and avoiding fraud, but it can also help confirm the legitimacy of the exchanged assets. It
+                    may
+                    be used to follow the supply chain from producer to distributor in sectors like pharmaceuticals, or
+                    it
+                    can be used to establish ownership in sectors like the arts. Secondly, blockchain eliminates the
+                    need
+                    for intermediaries in many procedures for industries like payments and real estate because of its
+                    decentralized nature. Blockchain enables quicker transactions by enabling P2P cross-border transfers
+                    with a digital currency compared to traditional financial services. A uniform system of ownership
+                    records and smart contracts that automate tenant-landlord agreements improve the efficiency of
+                    property
+                    management procedures (Koskal, 2019). Blockchain technology, as a decentralized and unchangeable
+                    database, holds the potential to revolutionize various industries by enhancing traceability and
+                    improving efficiency. Blockchain should be used more widely in society because by incorporating
+                    blockchain technology into various industries and aspects of society, we can benefit from increased
+                    security, transparency, efficiency, and traceability, ultimately driving innovation and economic
+                    growth.
+                    However, blockchain may face scalability, energy consumption, complexity, and regulatory
+                    uncertainties
+                    that must be addressed for widespread adoption.
+                </p>
+                <p>
+                    Firstly, the economy will gain from the increasing use of blockchain technology. Between 2022 and
+                    2030, the blockchain technology market is anticipated to grow at a compound annual growth rate
+                    (CAGR) of 85.9% (2021), expanding from a market valuation of USD 5.92 billion in 2021 and
+                    potentially contributing to a global GDP increase of up to US$1.76 trillion by 2030. Legalizing
+                    cryptocurrencies in nations like El Salvador and Ukraine is anticipated to open up new opportunities
+                    for market growth (Grandviewresearch.com, n.d.).
+                </p>
+                <p>
+                    In the opinion of its proponents, blockchain technology, notably in the financial industry, can
+                    drastically increase the productivity and profitability of most firms, if not all of them—or perhaps
+                    transform the way we do business entirely.
+                </p>
+                <p>
+                    The use of blockchain technology allows users worldwide to use financial services that they
+                    previously could not. People in emerging nations such as India, Nigeria, Kenya, and the Philippines
+                    are examples of emerging nations where blockchain technology could provide access to financial
+                    services for unbanked or underbanked populations, where it is more challenging to use regular banks,
+                    may utilize blockchain technology to get these services (PWC, 2020). China ($440 billion) and the
+                    USA ($407 billion) are the two countries with the most significant potential net benefits from
+                    blockchain. </p>
+                <p>
+                    Many developing countries lack the robust banking, internet, or electronic systems required to take
+                    advantage of the global digital transformation, but adopting blockchain technology and
+                    cryptocurrencies could be crucial to assisting these countries "leapfrog" — a process that involves
+                    utilizing new technologies to skip over traditional stages of infrastructure development and close
+                    gaps — and help these countries benefit from the global digital transformation (Getsmarter.com,
+                    2022). To provide micro-loans to vendors in Kenya, IBM collaborated with Twiga Foods, an African
+                    business-to-business logistics network for kiosks and food stalls. These loans were designed to
+                    assist merchants in acquiring and controlling additional inventory. IBM's contribution was building
+                    a blockchain-enabled loan infrastructure that could assess the creditworthiness of food providers.
+                    Blockchain technology has been utilized to track toxin levels in Nigeria, where efforts are being
+                    made to clean up the river belt. These statistics are necessary for the reporting requirements of
+                    the international organizations supporting these initiatives (Reiff, 2021). By enabling nations to
+                    overcome technological and infrastructural barriers, promoting financial inclusion, and simplifying
+                    their integration into the global digital economy, the use of blockchain technology in developing
+                    nations can significantly increase economic growth.
+                </p>
+                <div class="max-w-screen-lg mx-auto grid grid-cols-2 gap-4 p-0 md:p-5">
+                    <img class="h-auto max-w-full rounded-lg" src="asset/img/crypto-2.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="asset/img/crypto.jpg" alt="">
+                </div>
+                <p>
+                    However, blockchain technology and cryptocurrencies may occasionally still be erratic. A nation that
+                    only uses cryptocurrencies may experience volatility. Although stable currencies are employed, the
+                    stable currency of the "terra" crypto ecosystem failed. Blockchain technology is already having an
+                    evident impact on the world economy and financial policies. However, some of the consequences are
+                    harder to see. Worker replacement by efficient blockchain-based apps may increase unemployment rates
+                    in various industries. Of course, as cryptocurrency becomes more popular, the market's volatility is
+                    increasingly influencing global financial markets (Kriptomat.io, n.d.).
+                </p>
+                <p>
+                    The U.S. Treasury Department cautioned that unregulated digital currencies might threaten the U.S.
+                    financial system. This warning was included in the inaugural comprehensive public report on digital
+                    assets published by the Treasury's Financial Stability Oversight Council. The council pinpointed
+                    crypto assets like stablecoins and the practice of lending and borrowing on the sector's trading
+                    platforms as a "significant emerging vulnerability." "important emerging vulnerability." According
+                    to Treasury Secretary Janet Yellen, in 2021, the report states that crypto-asset activities may
+                    present risks to the stability of the U.S. financial system. It highlights the significance of
+                    relevant regulation, including enforcing current laws. Yellen emphasized the necessity for
+                    government stakeholders to collaborate to advance the recommendations laid out in the report,
+                    referring to the situation as an "important emerging vulnerability" (U.S. Department of the
+                    Treasury, 2021). At the beginning of this year, the Treasury Department imposed a range of sanctions
+                    on Russian oligarchs, specific Russian banks, and other organizations, citing their use of crypto
+                    assets to circumvent sanctions. In September, the department froze all assets held or controlled by
+                    U.S. individuals, about 22 individuals, and two organizations that facilitated the digital funding
+                    of Russia's invasion of Ukraine (Cox, 2022). This measure demonstrates the government's commitment
+                    to combating illicit financial activities and ensuring that digital currency networks are not
+                    exploited maliciously.
+                </p>
+                <p>
+                    Although blockchain can benefit economies, it can also significantly impact the environment. The New
+                    York Times (2022) claims that the yearly electricity consumption of the Bitcoin network is close to
+                    91 terawatt-hours (91 TWh), which is more than that of nations like Finland. According to some
+                    reports, this amount is 150 TWh annually, equivalent to more energy than Argentina, a country with
+                    45 million inhabitants (Clarke, 2022). Annualized power consumption from worldwide crypto-assets
+                    increased quickly between 2018 and 2022, according to projections. Published projections of the
+                    total yearly power consumption for crypto-assets as of August 2022 range from 120 to 240 billion
+                    kilowatt-hours, exceeding the total annual electricity consumption of several individual nations,
+                    such as Argentina or Australia. This is comparable to the yearly power use of all traditional data
+                    centers worldwide, representing 0.4% to 0.9% of the world's total annual electricity consumption
+                    (Whitehouse.gov, 2022). Because we use fossil-fired electricity, the highest market capitalization
+                    cryptocurrency assets generate 140-30 million metric tons of carbon dioxide yearly (Mt CO2/y),
+                    roughly 0.3% of the world's annual greenhouse gas emissions. According to estimates, the U.S.
+                    cryptocurrency market generates 25 to 50 Mt CO2/y, or 0.4% to 0.8% of the country's greenhouse gas
+                    emissions (Whitehouse.gov, 2022).
+                </p>
+                <p>
+                    Proof of Work (PoW) and Proof of Stake (PoS) is consensus algorithms used in blockchain networks to
+                    validate and secure transactions. PoW relies on miners solving complex mathematical puzzles to
+                    validate transactions and create new blocks. This process requires significant computational power,
+                    which also consumes substantial energy (Nakamoto, 2008). PoS, on the other hand, selects validators
+                    based on their stake (amount of cryptocurrency held) and other factors, such as the duration of
+                    holding. PoS network evaluators propose new blocks and validate transactions without
+                    energy-intensive computations, making it a more eco-friendly alternative (Buterin, 2021).
+                </p>
+                <p>
+                    The energy consumption of crypto assets is primarily driven by consensus mechanisms, such as
+                    distributed ledger technology, which is required for mining and validating transactions. The
+                    blockchains of Bitcoin and Ethereum both employ Proof of Work (PoW), the most popular consensus
+                    algorithm. More than 60% of the market value of all crypto assets is made up of Bitcoin and Ether
+                    combined. This feature prevents hostile actors from assaulting the network by making the PoW method
+                    more computationally intensive as more entities seek to validate transactions for coin rewards.
+                    Ethereum is projected to account for 20% to 39% of all global crypto-asset electricity usage by
+                    August 2022, while Bitcoin is expected to account for 60% to 77%. In addition to using grid
+                    electricity that has been purchased, crypto-asset mining operations may also have an impact on
+                    nearby noise and water quality, electronic waste, air and other pollution from any direct use of
+                    fossil-fired electricity, and additional air, water, and waste impacts from all grid electricity
+                    usage. These local impacts can exacerbate environmental justice issues for nearby communities, which
+                    are frequently already burdened by other pollutants, heat, traffic, or noise. When not directly
+                    utilizing renewable power, the development of energy-intensive crypto-asset technology might make it
+                    more difficult for the United States to meet its NDC under the Paris Agreement and prevent the worst
+                    effects of climate change. The federal government must take steps to promote and guarantee
+                    responsible development as crypto asset acceptance increases and new forms of digital assets may be
+                    introduced. This entails avoiding detrimental effects on neighborhood populations, dramatically
+                    lowering energy intensity, and using clean electricity as a source of energy (Whitehouse.gov, 2022).
+                </p>
+                <p>
+                    However, according to (Clarke, 2022), there may not be a firm consensus on how mining
+                    cryptocurrencies on PoW networks impacts the environment. There has been a push to adopt blockchain
+                    to save energy and improve the environment. As a result, the utilization of renewable energy sources
+                    for Bitcoin mining has increased by over 60% this year. Another use of blockchain is to lower
+                    atmospheric concentrations of greenhouse gasses like carbon dioxide. Blockchain technology, when
+                    applied to carbon credits, has the potential to benefit the environment significantly. R. A. Wilson,
+                    Chief Technical Officer of 1GCX, a global exchange for digital assets and carbon credits, argues
+                    that labeling Bitcoin as "bad" for the environment oversimplifies the issue and neglects important
+                    nuances and conversations. While it is true that proof-of-work networks, such as Bitcoin and others,
+                    consume more energy than proof-of-stake consensus algorithms, it is essential to consider other
+                    factors when evaluating the environmental impact of Bitcoin and blockchain technology as a whole
+                    (Clarke, 2022). Those who acknowledge these complexities may need to include the bigger picture and
+                    the potential for blockchain to contribute positively to environmental solutions.
+                </p>
+                <p>
+                    In summary, blockchain technology has enormous potential to transform several industries and
+                    increase global GDP by US$1.76 trillion over the following ten years. Its decentralized and
+                    immutable nature improves efficiency and traceability, generating tremendous value for the global
+                    economy. Blockchain technology can increase financial inclusion in underdeveloped nations and help
+                    the environment through cutting-edge uses like carbon credits. By increasing productivity, lowering
+                    transaction costs, and promoting transparency across various industries, blockchain technology can
+                    increase GDP by promoting economic growth and innovation. However, challenges remain to be resolved,
+                    such as the volatility of cryptocurrencies and the negative impacts of energy-intensive consensus
+                    methods like Proof of Work on the environment. In order to explore different consensus mechanisms,
+                    such as Proof of Stake, which offers a more environmentally friendly solution, and to establish
+                    appropriate regulations to ensure the technology is not misused for bad intentions, more research is
+                    required as nations and businesses continue to adopt blockchain. It is critical to weigh the
+                    advantages and disadvantages of blockchain technology as we look back on its development and to
+                    support further research and development. By doing this, we can use the potential of blockchain to
+                    transform industries, improve people's lives, and help create a more equal and sustainable future.
+
+                </p>
+            </div>
+            <div id="references" class="py-5 scroll-my-20">
+                <ul
+                    class="w-full text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-gray-400">
+                    <li
+                        class="w-full px-4 py-2 border-b border-gray-200 rounded-t-md dark:border-gray-600 bg-gray-700 text-gray-200 dark:bg-white dark:text-gray-700 text-center font-bold tracking-wide">
+                        References</li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Blockchain and the Economic Problems it Could Solve. (2022, February 28). GetSmarter. Retrieved
+                        November 18, 2022, from <a
+                            href="https://www.getsmarter.com/blog/market-trends/the-economic-problem-blockchain-could-solve/"
+                            target="_blank" class="text-blue-400 break-words">
+                            https://www.getsmarter.com/blog/market-trends/the-economic-problem-blockchain-could-solve/</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Blockchain technologies could boost the global economy US$1.76 trillion by 2030. (2020, October
+                        13). PwC. Retrieved November 18, 2022, from <a
+                            href="https://www.pwc.com/gx/en/news-room/press-releases/2020/blockchain-boost-global-economy-track-trace-trust.html"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://www.pwc.com/gx/en/news-room/press-releases/2020/blockchain-boost-global-economy-track-trace-trust.html</a>
+
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Blockchain technology for supply chains--A must or a maybe? (2017, September 12). McKinsey.
+                        Retrieved November 18, 2022, from <a
+                            href="https://www.mckinsey.com/capabilities/operations/our-insights/blockchain-technology-for-supply-chainsa-must-or-a-maybe"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://www.mckinsey.com/capabilities/operations/our-insights/blockchain-technology-for-supply-chainsa-must-or-a-maybe</a>
+
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Blockchain Technology Market Size Report, 2022-2030. (n.d.). Grand View Research. Retrieved
+                        November 18, 2022, from <a
+                            href="https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market</a>
+
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Clarke, A. (2022, August 10). Blockchain's environmental impact and how it can be used for
+                        carbon removal. Cointelegraph. Retrieved November 18, 2022, from
+                        <a href="https://cointelegraph.com/news/blockchain-s-environmental-impact-and-how-it-can-be-used-for-carbon-removal"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://cointelegraph.com/news/blockchain-s-environmental-impact-and-how-it-can-be-used-for-carbon-removal</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Home. (2022, September 08). YouTube. Retrieved November 18, 2022, from
+                        <a href="https://www.google.com/search?q=blockchain+impact+on+environment&oq=blockchain+impact+o&aqs=chrome.0.0i512l3j69i57j0i512l6.5801j0j7&sourceid=chrome&ie=UTF-8"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://www.google.com/search?q=blockchain+impact+on+environment&oq=blockchain+impact+o&aqs=chrome.0.0i512l3j69i57j0i512l6.5801j0j7&sourceid=chrome&ie=UTF-8</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Nabben, K. (2022, January 31). Cryptocurrency has an impact on economies. That's why some are
+                        afraid of it – and some welcome it. The Conversation. Retrieved November 18, 2022, from
+                        <a href="https://theconversation.com/cryptocurrency-has-an-impact-on-economies-thats-why-some-are-afraid-of-it-and-some-welcome-it-175911"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://theconversation.com/cryptocurrency-has-an-impact-on-economies-thats-why-some-are-afraid-of-it-and-some-welcome-it-175911</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Reiff, N. (n.d.). How Blockchain Can Help Emerging Economies. Investopedia. Retrieved November
+                        18, 2022, from <a
+                            href="https://www.investopedia.com/tech/how-blockchain-can-help-failing-economies/"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://www.investopedia.com/tech/how-blockchain-can-help-failing-economies/</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        What is Blockchain Technology? - IBM Blockchain. (n.d.). IBM. Retrieved November 18, 2022, from
+                        <a href="https://www.ibm.com/topics/what-is-blockchain" target="_blank"
+                            class="text-blue-400 break-words">https://www.ibm.com/topics/what-is-blockchain</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        What is Decentralization? (n.d.). AWS. Retrieved November 18, 2022, from
+                        <a href="https://aws.amazon.com/blockchain/decentralization-in-blockchain/" target="_blank"
+                            class="text-blue-400 break-words">https://aws.amazon.com/blockchain/decentralization-in-blockchain/</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        What Is the Economic Impact of Cryptocurrency? — Pelicoin Bitcoin ATM. (2022, April 11).
+                        Pelicoin. Retrieved November 18, 2022, from
+                        <a href="https://www.pelicoin.com/blog/what-is-the-economic-impact-of-cryptocurrency"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://www.pelicoin.com/blog/what-is-the-economic-impact-of-cryptocurrency</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Why Is Proof of Stake Better for the Environment? (2019, December 4). Medium. Retrieved November
+                        18, 2022, from
+                        <a href="https://medium.com/luniehq/why-is-proof-of-stake-better-for-the-environment-8ac074721930"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://medium.com/luniehq/why-is-proof-of-stake-better-for-the-environment-8ac074721930</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        Koksal, I. (2019, October 23). Home. YouTube. Retrieved November 18, 2022, from
+                        <a href="https://www.forbes.com/sites/ilkerkoksal/2019/10/23/the-benefits-of-applying-blockchain-technology-in-any-industry/?sh=1cb1b44449a5"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://www.forbes.com/sites/ilkerkoksal/2019/10/23/the-benefits-of-applying-blockchain-technology-in-any-industry/?sh=1cb1b44449a5</a>
+                    </li>
+                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                        FACT SHEET: Climate and Energy Implications of Crypto-Assets in the United States | OSTP. (2022,
+                        September 8). The White House. Retrieved November 21, 2022, from
+                        <a href="https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/"
+                            target="_blank"
+                            class="text-blue-400 break-words">https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+
+        // Change the icons inside the button based on previous settings
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            themeToggleLightIcon.classList.remove('hidden');
+        } else {
+            themeToggleDarkIcon.classList.remove('hidden');
+        }
+
+        var themeToggleBtn = document.getElementById('theme-toggle');
+
+        themeToggleBtn.addEventListener('click', function () {
+
+            // toggle icons inside button
+            themeToggleDarkIcon.classList.toggle('hidden');
+            themeToggleLightIcon.classList.toggle('hidden');
+
+            // if set via local storage previously
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+
+                // if NOT set via local storage previously
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>
