@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         html {
             scroll-behavior: smooth;
@@ -27,7 +27,7 @@
         h6,
         p,
         span {
-            font-family: 'Asap', sans-serif !important;
+            font-family: 'Poppins', sans-serif;
         }
 
         p {
@@ -42,7 +42,7 @@
 
     <nav class="bg-white border-gray-200 dark:bg-gray-900 drop-shadow-md sticky top-0 left-0">
         <div class="flex justify-between items-center max-w-screen-xl mx-auto p-4">
-            <a href="#" target="_blank" class="font-bold text-lg text-gray-700 dark:text-white">
+            <a href="#" target="_blank" class="text-lg text-gray-700 dark:text-white">
                 Wallaceluhur.com
             </a>
             <button id="theme-toggle" type="button"
@@ -64,19 +64,22 @@
     <!-- content  -->
     <section class="min-h-screen dark:bg-gray-900">
         <div class="max-w-screen-xl mx-auto p-4">
-            <div class="flex flex-col md:flex-row gap-2 justify-between items-center mt-10 mb-5 md:mb-0">
-                <h2 class="font-bold text-gray-500 dark:text-gray-400 text-xl md:text-3xl text-center">
+            <div class="flex flex-col gap-2 justify-between items-center mt-10 mb-2">
+                <h2 class="font-normal text-gray-500 dark:text-gray-400 text-xl md:text-4xl text-center">
                     Should blockchain technology be more widely used in society?
                 </h2>
                 <a href="#references"
-                    class="text-gray-600 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100  font-medium rounded-full text-sm px-5 py-1 md:py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 cursor-pointer">References
+                    class="text-gray-500 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100  font-medium rounded-full text-sm px-5 py-1 mr-2 mb-2 mt-3 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 cursor-pointer">References
                 </a>
             </div>
-            <div class="max-w-screen-lg mx-auto grid grid-cols-2 gap-4 p-0 md:p-10 items-center">
-                <img class="h-auto max-w-full rounded-lg" src="asset/img/bc-1.jpg" alt="">
-                <img class="h-auto max-w-full rounded-lg" src="asset/img/bc-2.webp" alt="">
-            </div>
-            <div class="font-semibold text-gray-500 dark:text-gray-400 text-sm md:text-[16px] text-justify leading-6 md:leading-8">
+        </div>
+        <div class="max-w-screen-xl mx-auto grid grid-cols-2 gap-4 items-center">
+            <img class="h-auto max-w-full rounded-lg" src="asset/img/bc-1.jpg" alt="">
+            <img class="h-full max-w-full rounded-lg" src="asset/img/bc-2.webp" alt="">
+        </div>
+        <div class="max-w-screen-lg mx-auto p-4">
+            <div
+                class="font-normal text-gray-500 dark:text-gray-400 text-sm md:text-[16px] text-center leading-6 md:leading-8">
                 <p>
                     "Blockchain technology has the potential to boost global gross domestic product (GDP) by US$1.76
                     trillion over the next decade." (PWC, 2020). Nevertheless, what is blockchain technology? Blockchain
@@ -151,10 +154,15 @@
                     their integration into the global digital economy, the use of blockchain technology in developing
                     nations can significantly increase economic growth.
                 </p>
-                <div class="max-w-screen-lg mx-auto grid grid-cols-2 gap-4 p-0 md:p-5">
-                    <img class="h-auto max-w-full rounded-lg" src="asset/img/crypto-2.jpg" alt="">
-                    <img class="h-auto max-w-full rounded-lg" src="asset/img/crypto.jpg" alt="">
-                </div>
+            </div>
+        </div>
+        <div class="max-w-screen-xl mx-auto grid grid-cols-2 gap-4">
+            <img class="h-auto max-w-full rounded-lg" src="asset/img/crypto-2.jpg" alt="">
+            <img class="h-auto max-w-full rounded-lg" src="asset/img/crypto.jpg" alt="">
+        </div>
+        <div class="max-w-screen-lg mx-auto p-4">
+            <div
+                class="font-normal text-gray-500 dark:text-gray-400 text-sm md:text-[16px] text-center leading-6 md:leading-8">
                 <p>
                     However, blockchain technology and cryptocurrencies may occasionally still be erratic. A nation that
                     only uses cryptocurrencies may experience volatility. Although stable currencies are employed, the
@@ -264,109 +272,110 @@
 
                 </p>
             </div>
-            <div id="references" class="py-5 scroll-my-20">
-                <ul
-                    class="w-full text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-gray-400">
-                    <li
-                        class="w-full px-4 py-2 border-b border-gray-200 rounded-t-md dark:border-gray-600 bg-gray-700 text-gray-200 dark:bg-white dark:text-gray-700 text-center font-bold tracking-wide">
-                        References</li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Blockchain and the Economic Problems it Could Solve. (2022, February 28). GetSmarter. Retrieved
-                        November 18, 2022, from <a
-                            href="https://www.getsmarter.com/blog/market-trends/the-economic-problem-blockchain-could-solve/"
-                            target="_blank" class="text-blue-400 break-words">
-                            https://www.getsmarter.com/blog/market-trends/the-economic-problem-blockchain-could-solve/</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Blockchain technologies could boost the global economy US$1.76 trillion by 2030. (2020, October
-                        13). PwC. Retrieved November 18, 2022, from <a
-                            href="https://www.pwc.com/gx/en/news-room/press-releases/2020/blockchain-boost-global-economy-track-trace-trust.html"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://www.pwc.com/gx/en/news-room/press-releases/2020/blockchain-boost-global-economy-track-trace-trust.html</a>
+        </div>
+        </div>
+        <div id="references" class="max-w-screen-lg mx-auto p-4 py-5 scroll-my-20">
+            <ul
+                class="w-full text-md font-normal text-gray-600 bg-white border border-gray-200 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-gray-400">
+                <li
+                    class="w-full px-4 py-2 border-b border-gray-200 rounded-t-md dark:border-gray-600 bg-gray-700 text-gray-200 dark:bg-white dark:text-gray-700 text-center font-bold tracking-wide">
+                    References</li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Blockchain and the Economic Problems it Could Solve. (2022, February 28). GetSmarter. Retrieved
+                    November 18, 2022, from <a
+                        href="https://www.getsmarter.com/blog/market-trends/the-economic-problem-blockchain-could-solve/"
+                        target="_blank" class="text-blue-400 break-words">
+                        https://www.getsmarter.com/blog/market-trends/the-economic-problem-blockchain-could-solve/</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Blockchain technologies could boost the global economy US$1.76 trillion by 2030. (2020, October
+                    13). PwC. Retrieved November 18, 2022, from <a
+                        href="https://www.pwc.com/gx/en/news-room/press-releases/2020/blockchain-boost-global-economy-track-trace-trust.html"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://www.pwc.com/gx/en/news-room/press-releases/2020/blockchain-boost-global-economy-track-trace-trust.html</a>
 
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Blockchain technology for supply chains--A must or a maybe? (2017, September 12). McKinsey.
-                        Retrieved November 18, 2022, from <a
-                            href="https://www.mckinsey.com/capabilities/operations/our-insights/blockchain-technology-for-supply-chainsa-must-or-a-maybe"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://www.mckinsey.com/capabilities/operations/our-insights/blockchain-technology-for-supply-chainsa-must-or-a-maybe</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Blockchain technology for supply chains--A must or a maybe? (2017, September 12). McKinsey.
+                    Retrieved November 18, 2022, from <a
+                        href="https://www.mckinsey.com/capabilities/operations/our-insights/blockchain-technology-for-supply-chainsa-must-or-a-maybe"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://www.mckinsey.com/capabilities/operations/our-insights/blockchain-technology-for-supply-chainsa-must-or-a-maybe</a>
 
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Blockchain Technology Market Size Report, 2022-2030. (n.d.). Grand View Research. Retrieved
-                        November 18, 2022, from <a
-                            href="https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Blockchain Technology Market Size Report, 2022-2030. (n.d.). Grand View Research. Retrieved
+                    November 18, 2022, from <a
+                        href="https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market</a>
 
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Clarke, A. (2022, August 10). Blockchain's environmental impact and how it can be used for
-                        carbon removal. Cointelegraph. Retrieved November 18, 2022, from
-                        <a href="https://cointelegraph.com/news/blockchain-s-environmental-impact-and-how-it-can-be-used-for-carbon-removal"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://cointelegraph.com/news/blockchain-s-environmental-impact-and-how-it-can-be-used-for-carbon-removal</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Home. (2022, September 08). YouTube. Retrieved November 18, 2022, from
-                        <a href="https://www.google.com/search?q=blockchain+impact+on+environment&oq=blockchain+impact+o&aqs=chrome.0.0i512l3j69i57j0i512l6.5801j0j7&sourceid=chrome&ie=UTF-8"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://www.google.com/search?q=blockchain+impact+on+environment&oq=blockchain+impact+o&aqs=chrome.0.0i512l3j69i57j0i512l6.5801j0j7&sourceid=chrome&ie=UTF-8</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Nabben, K. (2022, January 31). Cryptocurrency has an impact on economies. That's why some are
-                        afraid of it – and some welcome it. The Conversation. Retrieved November 18, 2022, from
-                        <a href="https://theconversation.com/cryptocurrency-has-an-impact-on-economies-thats-why-some-are-afraid-of-it-and-some-welcome-it-175911"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://theconversation.com/cryptocurrency-has-an-impact-on-economies-thats-why-some-are-afraid-of-it-and-some-welcome-it-175911</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Reiff, N. (n.d.). How Blockchain Can Help Emerging Economies. Investopedia. Retrieved November
-                        18, 2022, from <a
-                            href="https://www.investopedia.com/tech/how-blockchain-can-help-failing-economies/"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://www.investopedia.com/tech/how-blockchain-can-help-failing-economies/</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        What is Blockchain Technology? - IBM Blockchain. (n.d.). IBM. Retrieved November 18, 2022, from
-                        <a href="https://www.ibm.com/topics/what-is-blockchain" target="_blank"
-                            class="text-blue-400 break-words">https://www.ibm.com/topics/what-is-blockchain</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        What is Decentralization? (n.d.). AWS. Retrieved November 18, 2022, from
-                        <a href="https://aws.amazon.com/blockchain/decentralization-in-blockchain/" target="_blank"
-                            class="text-blue-400 break-words">https://aws.amazon.com/blockchain/decentralization-in-blockchain/</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        What Is the Economic Impact of Cryptocurrency? — Pelicoin Bitcoin ATM. (2022, April 11).
-                        Pelicoin. Retrieved November 18, 2022, from
-                        <a href="https://www.pelicoin.com/blog/what-is-the-economic-impact-of-cryptocurrency"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://www.pelicoin.com/blog/what-is-the-economic-impact-of-cryptocurrency</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Why Is Proof of Stake Better for the Environment? (2019, December 4). Medium. Retrieved November
-                        18, 2022, from
-                        <a href="https://medium.com/luniehq/why-is-proof-of-stake-better-for-the-environment-8ac074721930"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://medium.com/luniehq/why-is-proof-of-stake-better-for-the-environment-8ac074721930</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        Koksal, I. (2019, October 23). Home. YouTube. Retrieved November 18, 2022, from
-                        <a href="https://www.forbes.com/sites/ilkerkoksal/2019/10/23/the-benefits-of-applying-blockchain-technology-in-any-industry/?sh=1cb1b44449a5"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://www.forbes.com/sites/ilkerkoksal/2019/10/23/the-benefits-of-applying-blockchain-technology-in-any-industry/?sh=1cb1b44449a5</a>
-                    </li>
-                    <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
-                        FACT SHEET: Climate and Energy Implications of Crypto-Assets in the United States | OSTP. (2022,
-                        September 8). The White House. Retrieved November 21, 2022, from
-                        <a href="https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/"
-                            target="_blank"
-                            class="text-blue-400 break-words">https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/</a>
-                    </li>
-                </ul>
-            </div>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Clarke, A. (2022, August 10). Blockchain's environmental impact and how it can be used for
+                    carbon removal. Cointelegraph. Retrieved November 18, 2022, from
+                    <a href="https://cointelegraph.com/news/blockchain-s-environmental-impact-and-how-it-can-be-used-for-carbon-removal"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://cointelegraph.com/news/blockchain-s-environmental-impact-and-how-it-can-be-used-for-carbon-removal</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Home. (2022, September 08). YouTube. Retrieved November 18, 2022, from
+                    <a href="https://www.google.com/search?q=blockchain+impact+on+environment&oq=blockchain+impact+o&aqs=chrome.0.0i512l3j69i57j0i512l6.5801j0j7&sourceid=chrome&ie=UTF-8"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://www.google.com/search?q=blockchain+impact+on+environment&oq=blockchain+impact+o&aqs=chrome.0.0i512l3j69i57j0i512l6.5801j0j7&sourceid=chrome&ie=UTF-8</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Nabben, K. (2022, January 31). Cryptocurrency has an impact on economies. That's why some are
+                    afraid of it – and some welcome it. The Conversation. Retrieved November 18, 2022, from
+                    <a href="https://theconversation.com/cryptocurrency-has-an-impact-on-economies-thats-why-some-are-afraid-of-it-and-some-welcome-it-175911"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://theconversation.com/cryptocurrency-has-an-impact-on-economies-thats-why-some-are-afraid-of-it-and-some-welcome-it-175911</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Reiff, N. (n.d.). How Blockchain Can Help Emerging Economies. Investopedia. Retrieved November
+                    18, 2022, from <a
+                        href="https://www.investopedia.com/tech/how-blockchain-can-help-failing-economies/"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://www.investopedia.com/tech/how-blockchain-can-help-failing-economies/</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    What is Blockchain Technology? - IBM Blockchain. (n.d.). IBM. Retrieved November 18, 2022, from
+                    <a href="https://www.ibm.com/topics/what-is-blockchain" target="_blank"
+                        class="text-blue-400 break-words">https://www.ibm.com/topics/what-is-blockchain</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    What is Decentralization? (n.d.). AWS. Retrieved November 18, 2022, from
+                    <a href="https://aws.amazon.com/blockchain/decentralization-in-blockchain/" target="_blank"
+                        class="text-blue-400 break-words">https://aws.amazon.com/blockchain/decentralization-in-blockchain/</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    What Is the Economic Impact of Cryptocurrency? — Pelicoin Bitcoin ATM. (2022, April 11).
+                    Pelicoin. Retrieved November 18, 2022, from
+                    <a href="https://www.pelicoin.com/blog/what-is-the-economic-impact-of-cryptocurrency"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://www.pelicoin.com/blog/what-is-the-economic-impact-of-cryptocurrency</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Why Is Proof of Stake Better for the Environment? (2019, December 4). Medium. Retrieved November
+                    18, 2022, from
+                    <a href="https://medium.com/luniehq/why-is-proof-of-stake-better-for-the-environment-8ac074721930"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://medium.com/luniehq/why-is-proof-of-stake-better-for-the-environment-8ac074721930</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    Koksal, I. (2019, October 23). Home. YouTube. Retrieved November 18, 2022, from
+                    <a href="https://www.forbes.com/sites/ilkerkoksal/2019/10/23/the-benefits-of-applying-blockchain-technology-in-any-industry/?sh=1cb1b44449a5"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://www.forbes.com/sites/ilkerkoksal/2019/10/23/the-benefits-of-applying-blockchain-technology-in-any-industry/?sh=1cb1b44449a5</a>
+                </li>
+                <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">
+                    FACT SHEET: Climate and Energy Implications of Crypto-Assets in the United States | OSTP. (2022,
+                    September 8). The White House. Retrieved November 21, 2022, from
+                    <a href="https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/"
+                        target="_blank"
+                        class="text-blue-400 break-words">https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/</a>
+                </li>
+            </ul>
         </div>
     </section>
 
